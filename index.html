@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
   <link href="./css/styles.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
+
 <body>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -19,10 +21,10 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
           <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -34,13 +36,23 @@
     <div class="container text-center py-5">
       <h1 class="display-4">Machine Learning Engineer & Data Scientist</h1>
       <p class="lead">Building intelligent solutions with Python, TensorFlow, and PyTorch</p>
-      <div class="contact-info">
-        <p>Rhinstr. 87, 10315 Berlin | +49 157 5099 5914</p>
-        <p class="mb-0 text-white">
-            <a href="mailto:anepal857@gmail.com" class="text-black">anepal857@gmail.com</a> | 
-            <a href="https://linkedin.com/in/arjun-nepal-7bb213174" class="text-black">LinkedIn</a> | 
-            <a href="https://github.com/anepal85" class="text-black">GitHub</a>
+      <div class="contact-info mt-4">
+        <!-- Address -->
+        <p class="mb-3">
+          <i class="fas fa-map-marker-alt me-2"></i>Rhinstr. 87, 10315 Berlin
         </p>
+        <!-- Email, LinkedIn, GitHub (Icons Only) -->
+        <div class="d-flex justify-content-center gap-4">
+          <a href="mailto:anepal857@gmail.com" class="text-black">
+            <i class="fas fa-envelope fa-2x"></i>
+          </a>
+          <a href="https://linkedin.com/in/arjun-nepal-7bb213174" class="text-black">
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a href="https://github.com/anepal85" class="text-black">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+        </div>
       </div>
     </div>
   </header>
@@ -48,13 +60,17 @@
   <!-- About Section -->
   <section id="about" class="py-5 bg-light">
     <div class="container">
-    <h2 class="card-title text-left mb-2">About Me</h2>
+      <h2 class="card-title text-left mb-2">About Me</h2>
       <div class="row justify-content-center">
         <div class="col-lg-12">
           <div class="card shadow">
             <div class="card-body">
               <p class="card-text lead">
-                Innovative <strong>Machine Learning Engineer</strong> with expertise in <strong>Computer Vision</strong>, <strong>Deep Learning</strong>, and <strong>Generative AI</strong>. Proven experience in developing and deploying AI-driven solutions for industrial automation, predictive maintenance, and quality control. Skilled in Python, TensorFlow, PyTorch, and MLOps tools. Fluent in <strong>German (C1)</strong> and <strong>English</strong>.
+                Innovative <strong>Machine Learning Engineer</strong> with expertise in <strong>Computer
+                  Vision</strong>, <strong>Deep Learning</strong>, and <strong>Generative AI</strong>. Proven experience
+                in developing and deploying AI-driven solutions for industrial automation, predictive maintenance, and
+                quality control. Skilled in Python, TensorFlow, PyTorch, and MLOps tools. Fluent in <strong>German
+                  (C1)</strong> and <strong>English</strong>.
               </p>
             </div>
           </div>
@@ -63,10 +79,68 @@
     </div>
   </section>
 
-  <!-- Technical Skills Section -->
-<section id="skills" class="py-5 bg-light">
+
+  <!-- Education Section -->
+  <section id="education" class="py-5 bg-light">
     <div class="container">
-      <h2 class="text-left mb-2">Technical Skills</h2>  
+      <h2 class="text-left mb-2">Education</h2>
+      <div class="row g-4">
+        <!-- Master's Degree -->
+        <div class="col-12">
+          <div class="card education-card shadow">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-4">
+                <img src="assests/tu_logo.svg" alt="TU Berlin Logo" class="me-3" style="width: 60px; height: auto;">
+                <div>
+                  <h3 class="card-title mb-0">Master of Science in Computational Engineering Science</h3>
+                  <p class="card-subtitle text-muted">Technische Universität Berlin | Jul 2020 – Nov 2024 | Grade: 1,8
+                  </p>
+                </div>
+              </div>
+              <ul class="list-unstyled">
+                <li class="mb-3">
+                  <i class="fas fa-graduation-cap me-2 text-primary"></i>
+                  <strong>Focus:</strong> Data Science and Data Engineering
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-book me-2 text-primary"></i>
+                  <strong>Relevant Courses:</strong> Machine Learning, Big Data Analytics, Pattern Recognition, Bayesian
+                  Statistics, Signal Processing
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bachelor's Degree -->
+        <div class="col-12">
+          <div class="card education-card shadow">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-4">
+                <img src="assests/tu_logo.svg" alt="TU Berlin Logo" class="me-3" style="width: 60px; height: auto;">
+                <div>
+                  <h3 class="card-title mb-0">Bachelor of Science in Computational Engineering</h3>
+                  <p class="card-subtitle text-muted">Technische Universität Berlin | Jul 2016 – Jul 2020 | Grade: 2,4
+                  </p>
+                </div>
+              </div>
+              <ul class="list-unstyled">
+                <li class="mb-3">
+                  <i class="fas fa-graduation-cap me-2 text-primary"></i>
+                  <strong>Focus:</strong> Algorithms, Data Structures, Databases, Optimization Techniques
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Skills Section -->
+  <section id="skills" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-left mb-2">Technical Skills</h2>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         <!-- Card 1: Programming -->
         <div class="col">
@@ -82,7 +156,7 @@
             </div>
           </div>
         </div>
-  
+
         <!-- Card 2: ML Frameworks -->
         <div class="col">
           <div class="card h-100 shadow">
@@ -98,7 +172,7 @@
             </div>
           </div>
         </div>
-  
+
         <!-- Card 3: Cloud Platforms -->
         <div class="col">
           <div class="card h-100 shadow">
@@ -112,7 +186,7 @@
             </div>
           </div>
         </div>
-  
+
         <!-- Card 4: Data Engineering -->
         <div class="col">
           <div class="card h-100 shadow">
@@ -128,7 +202,7 @@
             </div>
           </div>
         </div>
-  
+
         <!-- Card 5: Data Visualization -->
         <div class="col">
           <div class="card h-100 shadow">
@@ -144,7 +218,7 @@
             </div>
           </div>
         </div>
-  
+
         <!-- Card 6: Tools & Frameworks -->
         <div class="col">
           <div class="card h-100 shadow">
@@ -164,226 +238,263 @@
     </div>
   </section>
 
-<!-- Work Experience Section -->
-<section id="experience" class="py-5 bg-light">
+  <!-- Work Experience Section -->
+  <section id="experience" class="py-5 bg-light">
     <div class="container">
       <h2 class="text-left mb-2">Work Experience</h2>
-        <div class="row g-4">
-                <!-- Experience 1: AdaptX System GmbH -->
-                <div class="col-12">
-                <div class="card h-100 shadow">
-                <div class="card-body">
-                    <h3 class="card-title">Machine Learning Engineer (Master Thesis)</h3>
-                    <h4 class="card-subtitle mb-3 text-muted">AdaptX System GmbH | Berlin, Germany | Dec 2023 – Sept 2024</h4>
-                    <ul class="list-unstyled">
-                    <li class="mb-3">
-                        <i class="fas fa-cogs me-2 text-primary"></i>
-                        Developed an <strong>AI-enabled system</strong> to monitor tool wear and its <strong>Remaining Useful Life (RLU)</strong> in machining processes.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-database me-2 text-primary"></i>
-                        Built a <strong>data pipeline</strong> to integrate <strong>IoT sensor data</strong> (force, vibration, acoustics) using <strong>Kafka</strong>.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-chart-line me-2 text-primary"></i>
-                        Performed <strong>Exploratory Data Analysis (EDA)</strong> and preprocessed data using <strong>normalization</strong> and <strong>standardization</strong>.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-camera me-2 text-primary"></i>
-                        Utilized a <strong>Microscopic Camera API</strong> to capture tool wear images and performed <strong>correlation analysis</strong> between IoT data and tool wear patterns.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-flask me-2 text-primary"></i>
-                        Conducted experiments with <strong>variable tool wear types</strong> and machining processes to collect acoustic, IoT, and image data.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-image me-2 text-primary"></i>
-                        Implemented <strong>classical image processing techniques</strong> (clustering, watershed algorithm, HOG feature extraction, graph cutting) for tool wear segmentation.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-robot me-2 text-primary"></i>
-                        Trained <strong>Residual and U-Net CNNs</strong> for <strong>semantic segmentation</strong> of tool wear images using <strong>semi-automated annotations</strong>.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-ruler me-2 text-primary"></i>
-                        Converted pixel-based segmentation results to real-world dimensions (mm) using a <strong>calibrated camera</strong>.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-network-wired me-2 text-primary"></i>
-                        Deployed the trained model via a <strong>RESTful API</strong> using <strong>FastAPI</strong> for real-time inference.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-brain me-2 text-primary"></i>
-                        Trained an <strong>Artificial Neural Network (ANN)</strong> to predict RLU using sensor data and calculated tool wear dimensions.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-desktop me-2 text-primary"></i>
-                        Developed a <strong>desktop application</strong> using <strong>PyQT</strong> to display real-time tool wear predictions and RLU values.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-check-circle me-2 text-primary"></i>
-                        Eliminated manual tool wear measurement processes, reducing production time and improving accuracy.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-chart-pie me-2 text-primary"></i>
-                        Provided robust RLU predictions, enabling users to monitor tool wear and prevent production defects.
-                    </li>
-                    </ul>
-                    </div>
-                </div>
+      <div class="row g-4">
+        <!-- Experience 1: AdaptX System GmbH -->
+        <div class="col-12">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h3 class="card-title">Machine Learning Engineer (Master Thesis)</h3>
+              <h4 class="card-subtitle mb-3 text-muted">AdaptX System GmbH | Berlin, Germany | Dec 2023 – Sept 2024</h4>
+              <ul class="list-unstyled">
+                <li class="mb-3">
+                  <i class="fas fa-cogs me-2 text-primary"></i>
+                  Developed an <strong>AI-enabled system</strong> to monitor tool wear and its <strong>Remaining Useful
+                    Life (RLU)</strong> in machining processes.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-database me-2 text-primary"></i>
+                  Built a <strong>data pipeline</strong> to integrate <strong>IoT sensor data</strong> (force,
+                  vibration, acoustics) using <strong>Kafka</strong>.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-chart-line me-2 text-primary"></i>
+                  Performed <strong>Exploratory Data Analysis (EDA)</strong> and preprocessed data using
+                  <strong>normalization</strong> and <strong>standardization</strong>.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-camera me-2 text-primary"></i>
+                  Utilized a <strong>Microscopic Camera API</strong> to capture tool wear images and performed
+                  <strong>correlation analysis</strong> between IoT data and tool wear patterns.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-flask me-2 text-primary"></i>
+                  Conducted experiments with <strong>variable tool wear types</strong> and machining processes to
+                  collect acoustic, IoT, and image data.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-image me-2 text-primary"></i>
+                  Implemented <strong>classical image processing techniques</strong> (clustering, watershed algorithm,
+                  HOG feature extraction, graph cutting) for tool wear segmentation.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-robot me-2 text-primary"></i>
+                  Trained <strong>Residual and U-Net CNNs</strong> for <strong>semantic segmentation</strong> of tool
+                  wear images using <strong>semi-automated annotations</strong>.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-ruler me-2 text-primary"></i>
+                  Converted pixel-based segmentation results to real-world dimensions (mm) using a <strong>calibrated
+                    camera</strong>.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-network-wired me-2 text-primary"></i>
+                  Deployed the trained model via a <strong>RESTful API</strong> using <strong>FastAPI</strong> for
+                  real-time inference.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-brain me-2 text-primary"></i>
+                  Trained an <strong>Artificial Neural Network (ANN)</strong> to predict RLU using sensor data and
+                  calculated tool wear dimensions.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-desktop me-2 text-primary"></i>
+                  Developed a <strong>desktop application</strong> using <strong>PyQT</strong> to display real-time tool
+                  wear predictions and RLU values.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-check-circle me-2 text-primary"></i>
+                  Eliminated manual tool wear measurement processes, reducing production time and improving accuracy.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-chart-pie me-2 text-primary"></i>
+                  Provided robust RLU predictions, enabling users to monitor tool wear and prevent production defects.
+                </li>
+              </ul>
             </div>
-        
-        <!-- Experience 2: Freudenberg Sealing Technologies -->
-            <div class="col-12">
-                <div class="card h-100 shadow">
-                <div class="card-body">
-                    <h3 class="card-title">Machine Learning Developer Working Student</h3>
-                    <h4 class="card-subtitle mb-3 text-muted">Freudenberg Sealing Technologies | Berlin, Germany | Jan 2023 – Nov 2024</h4>
-                    <ul class="list-unstyled">
-                    <li class="mb-3">
-                        <i class="fas fa-chart-line me-2 text-primary"></i>
-                        Performed <strong>Exploratory Data Analysis (EDA)</strong> on IoT and sensor data for predictive maintenance of machine failures.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-broom me-2 text-primary"></i>
-                        Cleaned, imputed, normalized, and standardized historical maintenance data to identify patterns and requirements.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-brain me-2 text-primary"></i>
-                        Implemented <strong>XGBoost</strong> to predict machine maintenance needs using IoT and sensor data.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-eye me-2 text-primary"></i>
-                        Developed <strong>computer vision models</strong> for automated quality control, increasing defect detection rates by <strong>10%</strong>.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-cogs me-2 text-primary"></i>
-                        Built an <strong>anomaly detection system</strong> using <strong>Convolutional Autoencoders</strong> for conveyor belt monitoring.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-cloud me-2 text-primary"></i>
-                        Deployed the anomaly detection model on <strong>Azure ML</strong> for real-time inference on conveyor belt camera data.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-code me-2 text-primary"></i>
-                        Developed <strong>Full Stack Web Applications</strong> using <strong>.NET</strong> and <strong>Blazor</strong>.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-sync-alt me-2 text-primary"></i>
-                        Modernized legacy <strong>WPF</strong> applications by rewriting and converting them to web-based solutions.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-database me-2 text-primary"></i>
-                        Designed and implemented <strong>MS SQL databases</strong> using <strong>Entity Framework</strong> and <strong>Dapper</strong>.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-tachometer-alt me-2 text-primary"></i>
-                        Optimized database queries using <strong>indexing</strong> and <strong>stored procedures</strong>.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-exchange-alt me-2 text-primary"></i>
-                        Developed data exchange services using <strong>.NET Min API</strong> to integrate third-party APIs with backend systems.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-users me-2 text-primary"></i>
-                        Collaborated with scientists and engineers to integrate ML models into production systems.
-                    </li>
-                    </ul>
-                </div>
-                </div>
-            </div>
-            
-            <!-- Experience 3: IWF Technische Universität Berlin -->
-            <div class="col-12">
-                <div class="card h-100 shadow">
-                <div class="card-body">
-                    <h3 class="card-title">Student Assistant Researcher</h3>
-                    <h4 class="card-subtitle mb-3 text-muted">IWF Technische Universität Berlin | Berlin, Germany | Mar 2021 – Oct 2022</h4>
-                    <ul class="list-unstyled">
-                    <li class="mb-3">
-                        <i class="fas fa-brain me-2 text-primary"></i>
-                        Replaced resource-intensive <strong>discrete event simulations (DES)</strong> with <strong>deep learning models</strong>, improving efficiency in manufacturing process.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-chart-line me-2 text-primary"></i>
-                        Analyzed the impact of <strong>training sample size</strong> on model performance, optimizing data usage and accuracy.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-cogs me-2 text-primary"></i>
-                        Developed an algorithm to determine the <strong>optimal training sample size</strong> for deep learning models for DES, reducing computational time.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-robot me-2 text-primary"></i>
-                        Utilized <strong>Generative Adversarial Networks (GANs)</strong> to generate synthetic data for training deep learning models.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-eye me-2 text-primary"></i>
-                        Developed a <strong>computer vision system</strong> for 3D printer monitoring using <strong>CNNs</strong>.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-ruler me-2 text-primary"></i>
-                        Implemented <strong>geometric analysis</strong> and <strong>template matching</strong> to track nozzle positions with 30µs processing time at 30 FPS.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-code me-2 text-primary"></i>
-                        Integrated <strong>G-code data</strong> with camera input to correlate 2D image coordinates with 3D printer positions, reducing manual intervention.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-users me-2 text-primary"></i>
-                        Collaborated with cross-functional teams to enhance operational control and strategic decision-making.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-project-diagram me-2 text-primary"></i>
-                        Contributed to the development of a <strong>smart factory</strong> with 3D printing, focusing on automation and real-time monitoring.
-                    </li>
-                    </ul>
-                </div>
-                </div>
-            </div>
+          </div>
+        </div>
 
-            <!-- Experience 4: Charité Campus Benjamin Franklin -->
-            <div class="col-12">
-                <div class="card h-100 shadow">
-                <div class="card-body">
-                    <h3 class="card-title">Data Analyst Working Student</h3>
-                    <h4 class="card-subtitle mb-3 text-muted">Charité Campus Benjamin Franklin | Berlin, Germany | Jan 2019 – July 2020</h4>
-                    <ul class="list-unstyled">
-                    <li class="mb-3">
-                        <i class="fas fa-database me-2 text-primary"></i>
-                        Developed <strong>ETL pipelines</strong> to integrate data from APIs into on-premise databases.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-broom me-2 text-primary"></i>
-                        Performed <strong>data cleaning</strong> and <strong>feature engineering</strong> to improve data quality.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-chart-bar me-2 text-primary"></i>
-                        Created <strong>interactive dashboards</strong> using <strong>Plotly Dash</strong> to visualize complex healthcare data for doctors and pathologists.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-code me-2 text-primary"></i>
-                        Developed <strong>.NET</strong> and <strong>C#</strong> applications to consolidate and integrate data from various sources.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-cogs me-2 text-primary"></i>
-                        Built <strong>ETL pipelines</strong> to automate data ingestion and transformation using <strong>MS SQL Server</strong>.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-bolt me-2 text-primary"></i>
-                        Implemented <strong>event-driven architectures</strong> and <strong>webhooks</strong> for real-time data processing.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-tools me-2 text-primary"></i>
-                        Utilized <strong>Python</strong> for data analysis and visualization, creating scalable and interactive charts.
-                    </li>
-                    <li class="mb-3">
-                        <i class="fas fa-network-wired me-2 text-primary"></i>
-                        Collaborated with healthcare professionals to design and deliver data-driven solutions.
-                    </li>
-                    </ul>
-                </div>
-                </div>
+        <!-- Experience 2: Freudenberg Sealing Technologies -->
+        <div class="col-12">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h3 class="card-title">Machine Learning Developer Working Student</h3>
+              <h4 class="card-subtitle mb-3 text-muted">Freudenberg Sealing Technologies | Berlin, Germany | Jan 2023 –
+                Nov 2024</h4>
+              <ul class="list-unstyled">
+                <li class="mb-3">
+                  <i class="fas fa-chart-line me-2 text-primary"></i>
+                  Performed <strong>Exploratory Data Analysis (EDA)</strong> on IoT and sensor data for predictive
+                  maintenance of machine failures.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-broom me-2 text-primary"></i>
+                  Cleaned, imputed, normalized, and standardized historical maintenance data to identify patterns and
+                  requirements.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-brain me-2 text-primary"></i>
+                  Implemented <strong>XGBoost</strong> to predict machine maintenance needs using IoT and sensor data.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-eye me-2 text-primary"></i>
+                  Developed <strong>computer vision models</strong> for automated quality control, increasing defect
+                  detection rates by <strong>10%</strong>.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-cogs me-2 text-primary"></i>
+                  Built an <strong>anomaly detection system</strong> using <strong>Convolutional Autoencoders</strong>
+                  for conveyor belt monitoring.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-cloud me-2 text-primary"></i>
+                  Deployed the anomaly detection model on <strong>Azure ML</strong> for real-time inference on conveyor
+                  belt camera data.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-code me-2 text-primary"></i>
+                  Developed <strong>Full Stack Web Applications</strong> using <strong>.NET</strong> and
+                  <strong>Blazor</strong>.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-sync-alt me-2 text-primary"></i>
+                  Modernized legacy <strong>WPF</strong> applications by rewriting and converting them to web-based
+                  solutions.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-database me-2 text-primary"></i>
+                  Designed and implemented <strong>MS SQL databases</strong> using <strong>Entity Framework</strong> and
+                  <strong>Dapper</strong>.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-tachometer-alt me-2 text-primary"></i>
+                  Optimized database queries using <strong>indexing</strong> and <strong>stored procedures</strong>.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-exchange-alt me-2 text-primary"></i>
+                  Developed data exchange services using <strong>.NET Min API</strong> to integrate third-party APIs
+                  with backend systems.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-users me-2 text-primary"></i>
+                  Collaborated with scientists and engineers to integrate ML models into production systems.
+                </li>
+              </ul>
             </div>
+          </div>
+        </div>
+
+        <!-- Experience 3: IWF Technische Universität Berlin -->
+        <div class="col-12">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h3 class="card-title">Student Assistant Researcher</h3>
+              <h4 class="card-subtitle mb-3 text-muted">IWF Technische Universität Berlin | Berlin, Germany | Mar 2021 –
+                Oct 2022</h4>
+              <ul class="list-unstyled">
+                <li class="mb-3">
+                  <i class="fas fa-brain me-2 text-primary"></i>
+                  Replaced resource-intensive <strong>discrete event simulations (DES)</strong> with <strong>deep
+                    learning models</strong>, improving efficiency in manufacturing process.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-chart-line me-2 text-primary"></i>
+                  Analyzed the impact of <strong>training sample size</strong> on model performance, optimizing data
+                  usage and accuracy.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-cogs me-2 text-primary"></i>
+                  Developed an algorithm to determine the <strong>optimal training sample size</strong> for deep
+                  learning models for DES, reducing computational time.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-robot me-2 text-primary"></i>
+                  Utilized <strong>Generative Adversarial Networks (GANs)</strong> to generate synthetic data for
+                  training deep learning models.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-eye me-2 text-primary"></i>
+                  Developed a <strong>computer vision system</strong> for 3D printer monitoring using
+                  <strong>CNNs</strong>.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-ruler me-2 text-primary"></i>
+                  Implemented <strong>geometric analysis</strong> and <strong>template matching</strong> to track nozzle
+                  positions with 30µs processing time at 30 FPS.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-code me-2 text-primary"></i>
+                  Integrated <strong>G-code data</strong> with camera input to correlate 2D image coordinates with 3D
+                  printer positions, reducing manual intervention.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-users me-2 text-primary"></i>
+                  Collaborated with cross-functional teams to enhance operational control and strategic decision-making.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-project-diagram me-2 text-primary"></i>
+                  Contributed to the development of a <strong>smart factory</strong> with 3D printing, focusing on
+                  automation and real-time monitoring.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 4: Charité Campus Benjamin Franklin -->
+        <div class="col-12">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h3 class="card-title">Data Analyst Working Student</h3>
+              <h4 class="card-subtitle mb-3 text-muted">Charité Campus Benjamin Franklin | Berlin, Germany | Jan 2019 –
+                July 2020</h4>
+              <ul class="list-unstyled">
+                <li class="mb-3">
+                  <i class="fas fa-database me-2 text-primary"></i>
+                  Developed <strong>ETL pipelines</strong> to integrate data from APIs into on-premise databases.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-broom me-2 text-primary"></i>
+                  Performed <strong>data cleaning</strong> and <strong>feature engineering</strong> to improve data
+                  quality.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-chart-bar me-2 text-primary"></i>
+                  Created <strong>interactive dashboards</strong> using <strong>Plotly Dash</strong> to visualize
+                  complex healthcare data for doctors and pathologists.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-code me-2 text-primary"></i>
+                  Developed <strong>.NET</strong> and <strong>C#</strong> applications to consolidate and integrate data
+                  from various sources.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-cogs me-2 text-primary"></i>
+                  Built <strong>ETL pipelines</strong> to automate data ingestion and transformation using <strong>MS
+                    SQL Server</strong>.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-bolt me-2 text-primary"></i>
+                  Implemented <strong>event-driven architectures</strong> and <strong>webhooks</strong> for real-time
+                  data processing.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-tools me-2 text-primary"></i>
+                  Utilized <strong>Python</strong> for data analysis and visualization, creating scalable and
+                  interactive charts.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-network-wired me-2 text-primary"></i>
+                  Collaborated with healthcare professionals to design and deliver data-driven solutions.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -392,69 +503,165 @@
   <!-- Projects Section -->
   <section id="projects" class="py-5">
     <div class="container">
-      <h2 class="section-title">Projects</h2>
-      <!-- Static Projects (from your CV) -->
-      <div class="row" id="static-projects">
-        <!-- Project 1 -->
-        <div class="col-md-6 mb-4">
-          <div class="project-card">
-            <h3>Real-Time Anomaly Detection in 3D Metal Printing</h3>
-            <ul>
-              <li>Developed a Faster R-CNN-based system for defect detection.</li>
-              <li>Deployed as microservices with FastAPI and Kafka.</li>
-              <li><strong>Tools:</strong> Python, TensorFlow, OpenCV, Docker</li>
-            </ul>
-            <a href="https://github.com/anepal85/KITransferLabCockpit" class="btn btn-primary">GitHub</a>
-          </div>
+      <h2 class="text-left mb-2">Projects</h2>
+      <div class="row g-4">
+        <!-- Project 1: Semantic Book Recommender -->
+        <div class="col-12">
+          <a href="https://github.com/anepal85/BookRecomendationSystem"
+            class="card project-card shadow text-decoration-none">
+            <div class="card-body">
+              <h3 class="card-title">Semantic Book Recommender with LLMs</h3>
+              <ul class="list-unstyled">
+                <li class="mb-3">
+                  <i class="fas fa-book me-2 text-primary"></i>
+                  Built a book recommendation system using <strong>Sentence-BERT</strong> and <strong>FAISS</strong> for
+                  semantic search.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-laptop-code me-2 text-primary"></i>
+                  Developed a <strong>Gradio-based web interface</strong> for user interaction.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-brain me-2 text-primary"></i>
+                  Leveraged <strong>Large Language Models (LLMs)</strong> to enhance recommendation accuracy.
+                </li>
+              </ul>
+            </div>
+          </a>
         </div>
-        <!-- Project 2 -->
-        <div class="col-md-6 mb-4">
-          <div class="project-card">
-            <h3>Semantic Book Recommender with LLMs</h3>
-            <ul>
-              <li>Built using Sentence-BERT and FAISS.</li>
-              <li>Gradio-based web interface.</li>
-              <li><strong>Tools:</strong> Hugging Face, FAISS, Gradio</li>
-            </ul>
-            <a href="https://github.com/anepal85/BookRecomendationSystem" class="btn btn-primary">GitHub</a>
-          </div>
+
+        <!-- Project 2: SplayTree Visualization -->
+        <div class="col-12">
+          <a href="https://github.com/anepal85/BTreeSplayingWithVisualization"
+            class="card project-card shadow text-decoration-none">
+            <div class="card-body">
+              <h3 class="card-title">SplayTree Visualization</h3>
+              <ul class="list-unstyled">
+                <li class="mb-3">
+                  <i class="fas fa-project-diagram me-2 text-primary"></i>
+                  Created a <strong>GUI</strong> for visualizing and interacting with a <strong>Splay Tree</strong>.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-mouse-pointer me-2 text-primary"></i>
+                  Enabled dynamic visualization of tree operations like <strong>insert</strong>,
+                  <strong>search</strong>, and <strong>delete</strong>.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-play-circle me-2 text-primary"></i>
+                  Added real-time <strong>splaying animations</strong> for better understanding of tree adjustments.
+                </li>
+              </ul>
+            </div>
+          </a>
+        </div>
+
+        <!-- Project 3: GUI for Sensor Data Visualization and AI Model Training -->
+        <div class="col-12">
+          <a href="https://github.com/anepal85/KITransferLabCockpit"
+            class="card project-card shadow text-decoration-none">
+            <div class="card-body">
+              <h3 class="card-title">GUI for Sensor Data Visualization and AI Model Training</h3>
+              <ul class="list-unstyled">
+                <li class="mb-3">
+                  <i class="fas fa-chart-line me-2 text-primary"></i>
+                  Designed a <strong>GUI</strong> for real-time visualization of sensor data and AI model training.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-image me-2 text-primary"></i>
+                  Integrated tools for <strong>image annotation</strong> and dataset preparation.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-tasks me-2 text-primary"></i>
+                  Enabled <strong>model evaluation visualization</strong> and <strong>annotation export</strong>.
+                </li>
+              </ul>
+            </div>
+          </a>
+        </div>
+
+        <!-- Project 4: Kafka-Based User Behavior Analysis -->
+        <div class="col-12">
+          <a href="https://github.com/anepal85/Addclicker" class="card project-card shadow text-decoration-none">
+            <div class="card-body">
+              <h3 class="card-title">Kafka-Based User Behavior Analysis</h3>
+              <ul class="list-unstyled">
+                <li class="mb-3">
+                  <i class="fas fa-database me-2 text-primary"></i>
+                  Built a system to analyze user behavior using <strong>Kafka</strong> and <strong>Docker</strong>.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-mouse me-2 text-primary"></i>
+                  Tracked user clicks on a web application and stored data in a database.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-stream me-2 text-primary"></i>
+                  Utilized <strong>Kafka producers</strong> and <strong>consumers</strong> for real-time data
+                  processing.
+                </li>
+              </ul>
+            </div>
+          </a>
+        </div>
+
+        <!-- Project 5: Industrial-Grade Order Processing System -->
+        <div class="col-12">
+          <a href="https://github.com/anepal85/OrderingApp" class="card project-card shadow text-decoration-none">
+            <div class="card-body">
+              <h3 class="card-title">Industrial-Grade Order Processing System</h3>
+              <ul class="list-unstyled">
+                <li class="mb-3">
+                  <i class="fas fa-server me-2 text-primary"></i>
+                  Built a <strong>scalable backend</strong> for food orders using <strong>Kafka microservices</strong>
+                  and <strong>FastAPI</strong>, handling 500+ concurrent requests.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-bolt me-2 text-primary"></i>
+                  Designed <strong>asynchronous communication</strong> between services to minimize latency.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-cogs me-2 text-primary"></i>
+                  Implemented <strong>Docker containers</strong> and <strong>GitHub Actions CI/CD</strong> for seamless
+                  deployment.
+                </li>
+                <li class="mb-3">
+                  <i class="fas fa-tools me-2 text-primary"></i>
+                  <strong>Tools:</strong> Python, FastAPI, Kafka, Docker, GitHub Actions.
+                </li>
+              </ul>
+            </div>
+          </a>
         </div>
       </div>
-      <!-- Dynamic GitHub Projects (optional) -->
-      <div class="row" id="dynamic-projects"></div>
     </div>
   </section>
-
-  <!-- Education Section -->
-  <section id="education" class="py-5">
+  <!-- Footer (Contact Me Section) -->
+  <footer id="contact" class="footer py-4 bg-dark text-white">
     <div class="container">
-      <h2 class="section-title">Education</h2>
-      <div class="education-card">
-        <h3>M.Sc. Computational Engineering Science</h3>
-        <p class="text-muted">Technische Universität Berlin | Jul 2020 – Nov 2024</p>
-        <p>Relevant Courses: Machine Learning, Pattern Recognition, Big Data Analytics</p>
-      </div>
-      <div class="education-card">
-        <h3>B.Sc. Computational Engineering</h3>
-        <p class="text-muted">Technische Universität Berlin | Jul 2016 – Jul 2020</p>
-      </div>
-    </div>
-  </section>
+      <div class="d-flex justify-content-between align-items-center">
+        <!-- Watermark (Left Side) -->
+        <div class="watermark">
+          <p class="mb-0">© 2025 Arjun Nepal</p>
+        </div>
 
-  <!-- Contact Section -->
-  <section id="contact" class="py-5 bg-light">
-    <div class="container text-center">
-      <h2 class="section-title">Contact</h2>
-      <div class="contact-links">
-        <a href="mailto:anepal857@gmail.com" class="btn btn-primary btn-lg">Email Me</a>
-        <a href="https://linkedin.com/in/arjun-nepal-7bb213174" class="btn btn-primary btn-lg">LinkedIn</a>
-        <a href="https://github.com/anepal85" class="btn btn-primary btn-lg">GitHub</a>
+        <!-- Contact Icons (Right Side) -->
+        <div class="contact-icons">
+          <a href="mailto:anepal857@gmail.com" class="text-white me-3">
+            <i class="fas fa-envelope fa-2x"></i>
+          </a>
+          <a href="https://linkedin.com/in/arjun-nepal-7bb213174" class="text-white me-3">
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a href="https://github.com/anepal85" class="text-white">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+        </div>
       </div>
     </div>
-  </section>
+  </footer>
 
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="./js/scripts.js"></script>
 </body>
+
 </html>

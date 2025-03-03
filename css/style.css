@@ -12,25 +12,41 @@
     line-height: 1.6;
   }
 
-  /* Hero Section */
-    .hero-section {
-    background: linear-gradient(135deg, #2d3436, #6c5ce7);
-    padding: 100px 0;
-    color: white; /* Ensures all text in the hero section is white */
-  }
-  
-  /* Hero Links */
-  .hero-section a {
-    color: white; /* Explicitly set link color */
-    text-decoration: none; /* Remove underline */
-    transition: opacity 0.3s;
-  }
-  
-  .hero-section a:hover {
-    opacity: 0.8; /* Add hover effect */
-  }
-  
+ /* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, #2d3436, #6c5ce7);
+  padding: 100px 0;
+  color: white; /* Ensures all text in the hero section is white */
+}
 
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-section .lead {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-section .contact-info {
+  font-size: 1.1rem;
+}
+
+.hero-section .contact-info a {
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.3s;
+}
+
+.hero-section .contact-info a:hover {
+  opacity: 0.8;
+}
+
+.hero-section .contact-info .fa-2x {
+  font-size: 2rem; /* Larger icons */
+}
   /* Section Titles */
   .section-title {
     font-size: 2.5rem;
@@ -189,3 +205,108 @@
     font-size: 1.25rem;
     margin-right: 0.75rem;
   }
+
+
+  /* Projects Section */
+#projects .project-card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+  background: white;
+}
+
+#projects .project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#projects .card-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #2d3436;
+  margin-bottom: 1rem;
+}
+
+#projects ul {
+  margin: 0;
+  padding: 0;
+}
+
+#projects ul li {
+  margin-bottom: 1rem;
+  color: #555;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+#projects ul li i {
+  font-size: 1.25rem;
+  margin-right: 0.75rem;
+}
+
+
+
+/* Education Section */
+#education .education-card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: white;
+}
+
+#education .education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#education .card-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #2d3436;
+  margin-bottom: 0.5rem;
+}
+
+#education .card-subtitle {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+#education ul {
+  margin: 0;
+  padding: 0;
+}
+
+#education ul li {
+  margin-bottom: 1rem;
+  color: #555;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+#education ul li i {
+  font-size: 1.25rem;
+  margin-right: 0.75rem;
+}
+
+
+/* Footer (Contact Me Section) */
+.footer {
+  background-color: #343a40; /* Dark background */
+  padding: 20px 0;
+}
+
+.watermark {
+  font-size: 1rem;
+  color: #f8f9fa; /* Light text color */
+}
+
+.contact-icons a {
+  color: #f8f9fa; /* Light text color */
+  transition: color 0.3s;
+}
+
+.contact-icons a:hover {
+  color: #6c5ce7; /* Purple color on hover */
+}
