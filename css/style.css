@@ -11,14 +11,26 @@
     color: var(--text-color);
     line-height: 1.6;
   }
-  
+
   /* Hero Section */
-  .hero-section {
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
-    color: white;
+    .hero-section {
+    background: linear-gradient(135deg, #2d3436, #6c5ce7);
     padding: 100px 0;
+    color: white; /* Ensures all text in the hero section is white */
   }
   
+  /* Hero Links */
+  .hero-section a {
+    color: white; /* Explicitly set link color */
+    text-decoration: none; /* Remove underline */
+    transition: opacity 0.3s;
+  }
+  
+  .hero-section a:hover {
+    opacity: 0.8; /* Add hover effect */
+  }
+  
+
   /* Section Titles */
   .section-title {
     font-size: 2.5rem;
@@ -38,4 +50,142 @@
   
   .project-card:hover {
     transform: translateY(-5px);
+  }
+
+  .experience-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  /* About Section Card */
+    .card {
+        border: none;
+        border-radius: 10px;
+    }
+  
+  .card-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2d3436;
+  }
+  
+  .card-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+  }
+
+  /* Technical Skills Section */
+#skills .card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  #skills .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  #skills .card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2d3436;
+    margin-bottom: 1rem;
+  }
+  
+  #skills .card-body {
+    padding: 1.5rem;
+  }
+  
+  #skills ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #skills ul li {
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+
+
+  /* Work Experience Section */
+#experience .card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  #experience .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  #experience .card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2d3436;
+    margin-bottom: 1rem;
+  }
+  
+  #experience .card-subtitle {
+    font-size: 1.1rem;
+    color: #6c757d;
+  }
+  
+  #experience .card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  #experience ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #experience ul li {
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+
+  /* Work Experience Section */
+#experience .card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  #experience .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  #experience .card-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #2d3436;
+    margin-bottom: 1rem;
+  }
+  
+  #experience .card-subtitle {
+    font-size: 1.1rem;
+    color: #6c757d;
+  }
+  
+  #experience ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #experience ul li {
+    margin-bottom: 1rem;
+    color: #555;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  #experience ul li i {
+    font-size: 1.25rem;
+    margin-right: 0.75rem;
   }
